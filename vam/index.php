@@ -10,6 +10,7 @@
 	 */
 ?>
 <?php
+	echo "Im in!!!";
 	session_start();
 	include("captcha/simple-php-captcha.php");
 	$_SESSION['captcha'] = simple_php_captcha();
